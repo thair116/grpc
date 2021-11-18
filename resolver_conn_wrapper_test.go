@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/balancer/stub"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/status"
+	"github.com/thair116/grpc/balancer"
+	"github.com/thair116/grpc/codes"
+	"github.com/thair116/grpc/internal/balancer/stub"
+	"github.com/thair116/grpc/resolver"
+	"github.com/thair116/grpc/resolver/manual"
+	"github.com/thair116/grpc/serviceconfig"
+	"github.com/thair116/grpc/status"
 )
 
 const happyBalancerName = "happy balancer"

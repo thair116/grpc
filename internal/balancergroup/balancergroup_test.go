@@ -22,15 +22,15 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/roundrobin"
-	"google.golang.org/grpc/balancer/weightedtarget/weightedaggregator"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/balancer/stub"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/resolver"
+	"github.com/thair116/grpc/balancer"
+	"github.com/thair116/grpc/balancer/roundrobin"
+	"github.com/thair116/grpc/balancer/weightedtarget/weightedaggregator"
+	"github.com/thair116/grpc/connectivity"
+	"github.com/thair116/grpc/credentials/insecure"
+	"github.com/thair116/grpc/internal/balancer/stub"
+	"github.com/thair116/grpc/internal/grpctest"
+	"github.com/thair116/grpc/internal/testutils"
+	"github.com/thair116/grpc/resolver"
 )
 
 var (

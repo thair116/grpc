@@ -22,8 +22,8 @@
 package metadata
 
 import (
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/resolver"
+	"github.com/thair116/grpc/metadata"
+	"github.com/thair116/grpc/resolver"
 )
 
 type mdKeyType string

@@ -31,13 +31,13 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/stubserver"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/codes"
+	"github.com/thair116/grpc/internal/stubserver"
+	"github.com/thair116/grpc/metadata"
+	"github.com/thair116/grpc/stats"
+	"github.com/thair116/grpc/status"
+	testpb "github.com/thair116/grpc/test/grpc_testing"
 )
 
 func (s) TestRetryUnary(t *testing.T) {

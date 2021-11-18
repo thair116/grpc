@@ -24,19 +24,19 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/pretty"
-	controllerversion "google.golang.org/grpc/xds/internal/xdsclient/controller/version"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
-	xdsresourceversion "google.golang.org/grpc/xds/internal/xdsclient/xdsresource/version"
-	"google.golang.org/protobuf/types/known/anypb"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/codes"
+	"github.com/thair116/grpc/internal/grpclog"
+	"github.com/thair116/grpc/internal/pretty"
+	controllerversion "github.com/thair116/grpc/xds/internal/xdsclient/controller/version"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
+	xdsresourceversion "github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/thair116/protobuf/types/known/anypb"
 
 	v2xdspb "github.com/envoyproxy/go-control-plane/envoy/api/v2"
 	v2corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
 	v2adsgrpc "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v2"
-	statuspb "google.golang.org/genproto/googleapis/rpc/status"
+	statuspb "github.com/thair116/genproto/googleapis/rpc/status"
 )
 
 func init() {

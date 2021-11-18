@@ -37,14 +37,14 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/leakcheck"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/status"
+	"github.com/thair116/grpc/attributes"
+	"github.com/thair116/grpc/codes"
+	"github.com/thair116/grpc/credentials"
+	"github.com/thair116/grpc/internal/grpctest"
+	"github.com/thair116/grpc/internal/leakcheck"
+	"github.com/thair116/grpc/internal/testutils"
+	"github.com/thair116/grpc/resolver"
+	"github.com/thair116/grpc/status"
 )
 
 type s struct {

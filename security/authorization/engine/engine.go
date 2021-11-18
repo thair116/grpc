@@ -26,11 +26,11 @@ import (
 	"github.com/google/cel-go/checker/decls"
 	"github.com/google/cel-go/common/types"
 	"github.com/google/cel-go/interpreter"
-	expr "google.golang.org/genproto/googleapis/api/expr/v1alpha1"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/protobuf/proto"
+	expr "github.com/thair116/genproto/googleapis/api/expr/v1alpha1"
+	"github.com/thair116/grpc/grpclog"
+	"github.com/thair116/grpc/metadata"
+	"github.com/thair116/grpc/peer"
+	"github.com/thair116/protobuf/proto"
 )
 
 var logger = grpclog.Component("authorization")

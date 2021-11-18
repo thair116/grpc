@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	_ "google.golang.org/grpc/balancer/grpclb"               // grpclb for config parsing.
-	_ "google.golang.org/grpc/internal/resolver/passthrough" // passthrough resolver.
+	"github.com/thair116/grpc/balancer"
+	_ "github.com/thair116/grpc/balancer/grpclb"               // grpclb for config parsing.
+	_ "github.com/thair116/grpc/internal/resolver/passthrough" // passthrough resolver.
 )
 
 const balancerWithoutConfigParserName = "dummy_balancer"

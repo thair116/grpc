@@ -24,7 +24,7 @@ import (
 
 	v2xdspb "github.com/envoyproxy/go-control-plane/envoy/api/v2"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // TestLDSHandleResponse starts a fake xDS server, makes a ClientConn to it,

@@ -17,7 +17,7 @@
 
 package xdsclient
 
-import "google.golang.org/grpc/xds/internal/xdsclient/load"
+import "github.com/thair116/grpc/xds/internal/xdsclient/load"
 
 // ReportLoad starts an load reporting stream to the given server. If the server
 // is not an empty string, and is different from the management server, a new

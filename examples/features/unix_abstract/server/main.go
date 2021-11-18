@@ -30,9 +30,9 @@ import (
 	"log"
 	"net"
 
-	"google.golang.org/grpc"
+	"github.com/thair116/grpc"
 
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	pb "github.com/thair116/grpc/examples/features/proto/echo"
 )
 
 var (

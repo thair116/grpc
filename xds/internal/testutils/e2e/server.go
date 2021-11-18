@@ -36,8 +36,8 @@ import (
 	v3resource "github.com/envoyproxy/go-control-plane/pkg/resource/v3"
 	v3server "github.com/envoyproxy/go-control-plane/pkg/server/v3"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/grpclog"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/grpclog"
 )
 
 var logger = grpclog.Component("xds-e2e")

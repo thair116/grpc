@@ -26,9 +26,9 @@ import (
 	corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
 	anypb "github.com/golang/protobuf/ptypes/any"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/thair116/grpc/internal/testutils"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
 )
 
 const (

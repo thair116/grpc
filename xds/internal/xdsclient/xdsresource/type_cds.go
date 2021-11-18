@@ -17,7 +17,7 @@
 
 package xdsresource
 
-import "google.golang.org/protobuf/types/known/anypb"
+import "github.com/thair116/protobuf/types/known/anypb"
 
 // ClusterType is the type of cluster from a received CDS response.
 type ClusterType int

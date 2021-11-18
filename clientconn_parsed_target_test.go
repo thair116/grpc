@@ -28,7 +28,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/grpc/resolver"
+	"github.com/thair116/grpc/resolver"
 )
 
 func (s) TestParsedTarget_Success_WithoutCustomDialer(t *testing.T) {

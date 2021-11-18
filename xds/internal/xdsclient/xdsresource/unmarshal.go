@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/protobuf/types/known/anypb"
+	"github.com/thair116/grpc/internal/grpclog"
+	"github.com/thair116/protobuf/types/known/anypb"
 )
 
 // UnmarshalOptions wraps the input parameters for `UnmarshalXxx` functions.

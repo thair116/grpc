@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/internal/pretty"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/grpc/internal/pretty"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 type watchInfoState int

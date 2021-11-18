@@ -18,12 +18,12 @@
 package xdsclient
 
 import (
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/xds/internal/xdsclient/bootstrap"
-	"google.golang.org/grpc/xds/internal/xdsclient/controller"
-	"google.golang.org/grpc/xds/internal/xdsclient/load"
-	"google.golang.org/grpc/xds/internal/xdsclient/pubsub"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/grpc/internal/grpclog"
+	"github.com/thair116/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/thair116/grpc/xds/internal/xdsclient/controller"
+	"github.com/thair116/grpc/xds/internal/xdsclient/load"
+	"github.com/thair116/grpc/xds/internal/xdsclient/pubsub"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 type controllerInterface interface {

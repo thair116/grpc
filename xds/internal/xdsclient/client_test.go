@@ -26,20 +26,20 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/xds/internal/xdsclient/load"
-	"google.golang.org/grpc/xds/internal/xdsclient/pubsub"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
-	"google.golang.org/protobuf/types/known/anypb"
+	"github.com/thair116/grpc/internal/grpclog"
+	"github.com/thair116/grpc/xds/internal/xdsclient/load"
+	"github.com/thair116/grpc/xds/internal/xdsclient/pubsub"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/protobuf/types/known/anypb"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/testutils"
-	xdstestutils "google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/xdsclient/bootstrap"
-	"google.golang.org/protobuf/testing/protocmp"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/credentials/insecure"
+	"github.com/thair116/grpc/internal/grpcsync"
+	"github.com/thair116/grpc/internal/grpctest"
+	"github.com/thair116/grpc/internal/testutils"
+	xdstestutils "github.com/thair116/grpc/xds/internal/testutils"
+	"github.com/thair116/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/thair116/protobuf/testing/protocmp"
 )
 
 type s struct {

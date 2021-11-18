@@ -20,9 +20,9 @@ package orca
 import (
 	orcapb "github.com/cncf/xds/go/xds/data/orca/v3"
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/balancerload"
-	"google.golang.org/grpc/metadata"
+	"github.com/thair116/grpc/grpclog"
+	"github.com/thair116/grpc/internal/balancerload"
+	"github.com/thair116/grpc/metadata"
 )
 
 const mdKey = "X-Endpoint-Load-Metrics-Bin"

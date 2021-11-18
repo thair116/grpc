@@ -17,7 +17,7 @@
  */
 
 // Package xds contains types that need to be shared between code under
-// google.golang.org/grpc/xds/... and the rest of gRPC.
+// github.com/thair116/grpc/xds/... and the rest of gRPC.
 package xds
 
 import (
@@ -26,8 +26,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/envconfig"
+	"github.com/thair116/grpc/grpclog"
+	"github.com/thair116/grpc/internal/envconfig"
 )
 
 var logger = grpclog.Component("internal/xds")

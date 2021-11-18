@@ -27,11 +27,11 @@ import (
 	v3tlspb "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/resolver"
-	"google.golang.org/grpc/xds/internal/httpfilter"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/thair116/grpc/internal/envconfig"
+	"github.com/thair116/grpc/internal/grpclog"
+	"github.com/thair116/grpc/internal/resolver"
+	"github.com/thair116/grpc/xds/internal/httpfilter"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
 )
 
 const (

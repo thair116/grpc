@@ -29,11 +29,11 @@ import (
 	v3httppb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/pretty"
-	"google.golang.org/grpc/xds/internal/httpfilter"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource/version"
-	"google.golang.org/protobuf/types/known/anypb"
+	"github.com/thair116/grpc/internal/grpclog"
+	"github.com/thair116/grpc/internal/pretty"
+	"github.com/thair116/grpc/xds/internal/httpfilter"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/thair116/protobuf/types/known/anypb"
 )
 
 // UnmarshalListener processes resources received in an LDS response, validates

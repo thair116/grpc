@@ -26,13 +26,13 @@ import (
 	v3routepb "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
 	v3typepb "github.com/envoyproxy/go-control-plane/envoy/type/v3"
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/pretty"
-	"google.golang.org/grpc/xds/internal/clusterspecifier"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource/version"
-	"google.golang.org/protobuf/types/known/anypb"
+	"github.com/thair116/grpc/codes"
+	"github.com/thair116/grpc/internal/envconfig"
+	"github.com/thair116/grpc/internal/grpclog"
+	"github.com/thair116/grpc/internal/pretty"
+	"github.com/thair116/grpc/xds/internal/clusterspecifier"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/thair116/protobuf/types/known/anypb"
 )
 
 // UnmarshalRouteConfig processes resources received in an RDS response,

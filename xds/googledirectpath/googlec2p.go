@@ -29,19 +29,19 @@ import (
 	"fmt"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/google"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/googlecloud"
-	internalgrpclog "google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/grpcrand"
-	"google.golang.org/grpc/resolver"
-	_ "google.golang.org/grpc/xds" // To register xds resolvers and balancers.
-	"google.golang.org/grpc/xds/internal/xdsclient"
-	"google.golang.org/grpc/xds/internal/xdsclient/bootstrap"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource/version"
-	"google.golang.org/protobuf/types/known/structpb"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/credentials/google"
+	"github.com/thair116/grpc/grpclog"
+	"github.com/thair116/grpc/internal/envconfig"
+	"github.com/thair116/grpc/internal/googlecloud"
+	internalgrpclog "github.com/thair116/grpc/internal/grpclog"
+	"github.com/thair116/grpc/internal/grpcrand"
+	"github.com/thair116/grpc/resolver"
+	_ "github.com/thair116/grpc/xds" // To register xds resolvers and balancers.
+	"github.com/thair116/grpc/xds/internal/xdsclient"
+	"github.com/thair116/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/thair116/protobuf/types/known/structpb"
 
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 )

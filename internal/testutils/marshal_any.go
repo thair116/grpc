@@ -22,7 +22,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	"google.golang.org/protobuf/types/known/anypb"
+	"github.com/thair116/protobuf/types/known/anypb"
 )
 
 // MarshalAny is a convenience function to marshal protobuf messages into any

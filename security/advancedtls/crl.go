@@ -34,7 +34,7 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/grpc/grpclog"
+	"github.com/thair116/grpc/grpclog"
 )
 
 var grpclogLogger = grpclog.Component("advancedtls")

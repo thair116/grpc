@@ -26,15 +26,15 @@ import (
 	"fmt"
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
-	xdscreds "google.golang.org/grpc/credentials/xds"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/e2e"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/credentials/insecure"
+	xdscreds "github.com/thair116/grpc/credentials/xds"
+	"github.com/thair116/grpc/internal/testutils"
+	"github.com/thair116/grpc/xds/internal/testutils/e2e"
 
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	v3tlspb "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	testpb "github.com/thair116/grpc/test/grpc_testing"
 )
 
 func (s) TestUnmarshalListener_WithUpdateValidatorFunc(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/thair116/grpc-go
+module github.com/thair116/grpc
 
 go 1.14
 
@@ -14,6 +14,6 @@ require (
 	golang.org/x/net v0.0.0-20200822124328-c89045814202
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd
-	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013
-	google.golang.org/protobuf v1.25.0
+	github.com/thair116/genproto v0.0.0-20200526211855-cb27e3aa2013
+	github.com/thair116/protobuf v1.25.0
 )

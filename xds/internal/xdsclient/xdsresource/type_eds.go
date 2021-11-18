@@ -18,8 +18,8 @@
 package xdsresource
 
 import (
-	"google.golang.org/grpc/xds/internal"
-	"google.golang.org/protobuf/types/known/anypb"
+	"github.com/thair116/grpc/xds/internal"
+	"github.com/thair116/protobuf/types/known/anypb"
 )
 
 // OverloadDropConfig contains the config to drop overloads.

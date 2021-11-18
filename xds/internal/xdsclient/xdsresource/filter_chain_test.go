@@ -33,17 +33,17 @@ import (
 	v3tlspb "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/protobuf/testing/protocmp"
-	"google.golang.org/protobuf/types/known/anypb"
-	"google.golang.org/protobuf/types/known/wrapperspb"
+	"github.com/thair116/protobuf/testing/protocmp"
+	"github.com/thair116/protobuf/types/known/anypb"
+	"github.com/thair116/protobuf/types/known/wrapperspb"
 
-	"google.golang.org/grpc/internal/envconfig"
-	iresolver "google.golang.org/grpc/internal/resolver"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/xds/internal/httpfilter"
-	"google.golang.org/grpc/xds/internal/httpfilter/router"
-	"google.golang.org/grpc/xds/internal/testutils/e2e"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/thair116/grpc/internal/envconfig"
+	iresolver "github.com/thair116/grpc/internal/resolver"
+	"github.com/thair116/grpc/internal/testutils"
+	"github.com/thair116/grpc/xds/internal/httpfilter"
+	"github.com/thair116/grpc/xds/internal/httpfilter/router"
+	"github.com/thair116/grpc/xds/internal/testutils/e2e"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
 )
 
 const (

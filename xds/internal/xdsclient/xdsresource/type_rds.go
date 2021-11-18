@@ -21,11 +21,11 @@ import (
 	"regexp"
 	"time"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/xds/matcher"
-	"google.golang.org/grpc/xds/internal/clusterspecifier"
-	"google.golang.org/grpc/xds/internal/httpfilter"
-	"google.golang.org/protobuf/types/known/anypb"
+	"github.com/thair116/grpc/codes"
+	"github.com/thair116/grpc/internal/xds/matcher"
+	"github.com/thair116/grpc/xds/internal/clusterspecifier"
+	"github.com/thair116/grpc/xds/internal/httpfilter"
+	"github.com/thair116/protobuf/types/known/anypb"
 )
 
 // RouteConfigUpdate contains information received in an RDS response, which is

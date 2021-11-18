@@ -32,14 +32,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/tap"
+	"github.com/thair116/grpc/codes"
+	"github.com/thair116/grpc/credentials"
+	"github.com/thair116/grpc/keepalive"
+	"github.com/thair116/grpc/metadata"
+	"github.com/thair116/grpc/resolver"
+	"github.com/thair116/grpc/stats"
+	"github.com/thair116/grpc/status"
+	"github.com/thair116/grpc/tap"
 )
 
 const logLevel = 2

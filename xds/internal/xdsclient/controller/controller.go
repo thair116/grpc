@@ -30,15 +30,15 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/buffer"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/xds/internal/xdsclient/bootstrap"
-	"google.golang.org/grpc/xds/internal/xdsclient/controller/version"
-	"google.golang.org/grpc/xds/internal/xdsclient/pubsub"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/internal/backoff"
+	"github.com/thair116/grpc/internal/buffer"
+	"github.com/thair116/grpc/internal/grpclog"
+	"github.com/thair116/grpc/keepalive"
+	"github.com/thair116/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/thair116/grpc/xds/internal/xdsclient/controller/version"
+	"github.com/thair116/grpc/xds/internal/xdsclient/pubsub"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // Controller manages the connection and stream to the control plane.

@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/cache"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/resolver"
+	"github.com/thair116/grpc/balancer"
+	"github.com/thair116/grpc/connectivity"
+	"github.com/thair116/grpc/internal/cache"
+	"github.com/thair116/grpc/internal/grpclog"
+	"github.com/thair116/grpc/resolver"
 )
 
 // subBalancerWrapper is used to keep the configurations that will be used to start

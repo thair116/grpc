@@ -25,11 +25,11 @@ import (
 	"time"
 	"unsafe"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/xds/rbac"
-	"google.golang.org/grpc/status"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/codes"
+	"github.com/thair116/grpc/grpclog"
+	"github.com/thair116/grpc/internal/xds/rbac"
+	"github.com/thair116/grpc/status"
 )
 
 var logger = grpclog.Component("authz")

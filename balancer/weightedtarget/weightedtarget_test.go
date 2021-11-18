@@ -25,17 +25,17 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/roundrobin"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/balancer/stub"
-	"google.golang.org/grpc/internal/balancergroup"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/hierarchy"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/thair116/grpc/attributes"
+	"github.com/thair116/grpc/balancer"
+	"github.com/thair116/grpc/balancer/roundrobin"
+	"github.com/thair116/grpc/connectivity"
+	"github.com/thair116/grpc/internal/balancer/stub"
+	"github.com/thair116/grpc/internal/balancergroup"
+	"github.com/thair116/grpc/internal/grpctest"
+	"github.com/thair116/grpc/internal/hierarchy"
+	"github.com/thair116/grpc/internal/testutils"
+	"github.com/thair116/grpc/resolver"
+	"github.com/thair116/grpc/serviceconfig"
 )
 
 type s struct {

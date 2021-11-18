@@ -24,10 +24,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
-	"google.golang.org/protobuf/types/known/anypb"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/protobuf/types/known/anypb"
 
-	"google.golang.org/grpc/internal/testutils"
+	"github.com/thair116/grpc/internal/testutils"
 )
 
 // TestClusterWatch covers the cases:

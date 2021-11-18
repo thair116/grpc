@@ -19,7 +19,7 @@
 package xdsclient
 
 import (
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // NewListeners is called by the underlying xdsAPIClient when it receives an

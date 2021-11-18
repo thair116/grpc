@@ -26,8 +26,8 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 	protov1 "github.com/golang/protobuf/proto"
-	"google.golang.org/protobuf/encoding/protojson"
-	protov2 "google.golang.org/protobuf/proto"
+	"github.com/thair116/protobuf/encoding/protojson"
+	protov2 "github.com/thair116/protobuf/proto"
 )
 
 const jsonIndent = "  "

@@ -32,13 +32,13 @@ import (
 	v3httppb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 	v3tlspb "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/testutils"
-	_ "google.golang.org/grpc/xds/internal/httpfilter/router"
-	"google.golang.org/grpc/xds/internal/testutils/e2e"
-	"google.golang.org/grpc/xds/internal/testutils/fakeclient"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/grpc/internal/envconfig"
+	"github.com/thair116/grpc/internal/grpctest"
+	"github.com/thair116/grpc/internal/testutils"
+	_ "github.com/thair116/grpc/xds/internal/httpfilter/router"
+	"github.com/thair116/grpc/xds/internal/testutils/e2e"
+	"github.com/thair116/grpc/xds/internal/testutils/fakeclient"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 const (

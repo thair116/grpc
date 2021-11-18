@@ -24,11 +24,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/internal/xds/matcher"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource/version"
-	"google.golang.org/protobuf/types/known/wrapperspb"
+	"github.com/thair116/grpc/internal/envconfig"
+	"github.com/thair116/grpc/internal/testutils"
+	"github.com/thair116/grpc/internal/xds/matcher"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/thair116/protobuf/types/known/wrapperspb"
 
 	v2xdspb "github.com/envoyproxy/go-control-plane/envoy/api/v2"
 	v2corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"

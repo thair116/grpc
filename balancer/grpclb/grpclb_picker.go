@@ -22,11 +22,11 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"google.golang.org/grpc/balancer"
-	lbpb "google.golang.org/grpc/balancer/grpclb/grpc_lb_v1"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/grpcrand"
-	"google.golang.org/grpc/status"
+	"github.com/thair116/grpc/balancer"
+	lbpb "github.com/thair116/grpc/balancer/grpclb/grpc_lb_v1"
+	"github.com/thair116/grpc/codes"
+	"github.com/thair116/grpc/internal/grpcrand"
+	"github.com/thair116/grpc/status"
 )
 
 // rpcStats is same as lbpb.ClientStats, except that numCallsDropped is a map

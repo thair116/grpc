@@ -20,9 +20,9 @@ package controller
 import (
 	"context"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/xds/internal/xdsclient/controller/version"
-	"google.golang.org/grpc/xds/internal/xdsclient/load"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/xds/internal/xdsclient/controller/version"
+	"github.com/thair116/grpc/xds/internal/xdsclient/load"
 )
 
 // ReportLoad starts an load reporting stream to the given server. If the server

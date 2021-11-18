@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/rls/internal/testutils/fakeserver"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/testdata"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/balancer"
+	"github.com/thair116/grpc/balancer/rls/internal/testutils/fakeserver"
+	"github.com/thair116/grpc/credentials"
+	"github.com/thair116/grpc/internal/grpctest"
+	"github.com/thair116/grpc/internal/testutils"
+	"github.com/thair116/grpc/testdata"
 )
 
 const defaultTestTimeout = 1 * time.Second

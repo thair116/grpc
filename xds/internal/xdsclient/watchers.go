@@ -18,7 +18,7 @@
 package xdsclient
 
 import (
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // WatchListener uses LDS to discover information about the provided listener.

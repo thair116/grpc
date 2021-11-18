@@ -24,13 +24,13 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/xds/internal/testutils/fakeserver"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/grpc/internal/testutils"
+	"github.com/thair116/grpc/resolver"
+	"github.com/thair116/grpc/resolver/manual"
+	"github.com/thair116/grpc/xds/internal/testutils/fakeserver"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 
-	_ "google.golang.org/grpc/xds/internal/xdsclient/controller/version/v2" // Register the v2 xDS API client.
+	_ "github.com/thair116/grpc/xds/internal/xdsclient/controller/version/v2" // Register the v2 xDS API client.
 )
 
 // TestV2ClientBackoffAfterRecvError verifies if the v2Client backs off when it

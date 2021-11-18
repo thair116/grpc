@@ -21,8 +21,8 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	xdsinternal "google.golang.org/grpc/internal/xds"
-	"google.golang.org/grpc/xds/internal/testutils/e2e"
+	xdsinternal "github.com/thair116/grpc/internal/xds"
+	"github.com/thair116/grpc/xds/internal/testutils/e2e"
 )
 
 type controlPlane struct {

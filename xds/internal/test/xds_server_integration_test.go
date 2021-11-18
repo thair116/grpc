@@ -30,15 +30,15 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/xds"
-	"google.golang.org/grpc/xds/internal/httpfilter/rbac"
-	"google.golang.org/grpc/xds/internal/testutils/e2e"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/codes"
+	"github.com/thair116/grpc/credentials/insecure"
+	"github.com/thair116/grpc/internal/envconfig"
+	"github.com/thair116/grpc/internal/testutils"
+	"github.com/thair116/grpc/status"
+	"github.com/thair116/grpc/xds"
+	"github.com/thair116/grpc/xds/internal/httpfilter/rbac"
+	"github.com/thair116/grpc/xds/internal/testutils/e2e"
 
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
@@ -50,8 +50,8 @@ import (
 	v3matcherpb "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
 	anypb "github.com/golang/protobuf/ptypes/any"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
-	xdscreds "google.golang.org/grpc/credentials/xds"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	xdscreds "github.com/thair116/grpc/credentials/xds"
+	testpb "github.com/thair116/grpc/test/grpc_testing"
 )
 
 const (

@@ -20,8 +20,8 @@ package xdsresource
 import (
 	"time"
 
-	"google.golang.org/grpc/xds/internal/httpfilter"
-	"google.golang.org/protobuf/types/known/anypb"
+	"github.com/thair116/grpc/xds/internal/httpfilter"
+	"github.com/thair116/protobuf/types/known/anypb"
 )
 
 // ListenerUpdate contains information received in an LDS response, which is of

@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"strings"
 
-	"google.golang.org/grpc/balancer/roundrobin"
-	internalserviceconfig "google.golang.org/grpc/internal/serviceconfig"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/xds/internal/balancer/ringhash"
+	"github.com/thair116/grpc/balancer/roundrobin"
+	internalserviceconfig "github.com/thair116/grpc/internal/serviceconfig"
+	"github.com/thair116/grpc/serviceconfig"
+	"github.com/thair116/grpc/xds/internal/balancer/ringhash"
 )
 
 // DiscoveryMechanismType is the type of discovery mechanism.

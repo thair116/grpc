@@ -29,16 +29,16 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials/insecure"
-	xdscreds "google.golang.org/grpc/credentials/xds"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/xds"
-	"google.golang.org/grpc/xds/internal/testutils/e2e"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/connectivity"
+	"github.com/thair116/grpc/credentials/insecure"
+	xdscreds "github.com/thair116/grpc/credentials/xds"
+	"github.com/thair116/grpc/internal/testutils"
+	"github.com/thair116/grpc/xds"
+	"github.com/thair116/grpc/xds/internal/testutils/e2e"
 
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	testpb "github.com/thair116/grpc/test/grpc_testing"
 )
 
 // TestServerSideXDS_RedundantUpdateSuppression tests the scenario where the

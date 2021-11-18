@@ -24,11 +24,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/fakeclient"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/grpc/resolver"
+	"github.com/thair116/grpc/resolver/manual"
+	"github.com/thair116/grpc/xds/internal/testutils"
+	"github.com/thair116/grpc/xds/internal/testutils/fakeclient"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 const (

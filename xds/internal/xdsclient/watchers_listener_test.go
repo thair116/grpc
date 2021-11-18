@@ -25,9 +25,9 @@ import (
 
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 	v3httppb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
-	"google.golang.org/protobuf/types/known/anypb"
+	"github.com/thair116/grpc/internal/testutils"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/protobuf/types/known/anypb"
 )
 
 // TestLDSWatch covers the cases:

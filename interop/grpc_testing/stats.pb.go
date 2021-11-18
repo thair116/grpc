@@ -22,9 +22,9 @@ package grpc_testing
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	core "google.golang.org/grpc/interop/grpc_testing/core"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	core "github.com/thair116/grpc/interop/grpc_testing/core"
+	protoreflect "github.com/thair116/protobuf/reflect/protoreflect"
+	protoimpl "github.com/thair116/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

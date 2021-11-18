@@ -17,7 +17,7 @@
 
 package pubsub
 
-import "google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+import "github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 
 // UpdateHandler receives and processes (by taking appropriate actions) xDS
 // resource updates from an APIClient for a specific version.

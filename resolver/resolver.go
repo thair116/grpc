@@ -25,9 +25,9 @@ import (
 	"net"
 	"net/url"
 
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/thair116/grpc/attributes"
+	"github.com/thair116/grpc/credentials"
+	"github.com/thair116/grpc/serviceconfig"
 )
 
 var (

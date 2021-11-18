@@ -28,7 +28,7 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/grpclog"
+	"github.com/thair116/grpc/grpclog"
 )
 
 var once sync.Once

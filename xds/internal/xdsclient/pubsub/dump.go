@@ -19,7 +19,7 @@ package pubsub
 
 import (
 	anypb "github.com/golang/protobuf/ptypes/any"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 func rawFromCache(s string, cache interface{}) *anypb.Any {

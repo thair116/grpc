@@ -24,10 +24,10 @@ import (
 	"context"
 	"sync"
 
-	"google.golang.org/grpc/codes"
-	healthgrpc "google.golang.org/grpc/health/grpc_health_v1"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
-	"google.golang.org/grpc/status"
+	"github.com/thair116/grpc/codes"
+	healthgrpc "github.com/thair116/grpc/health/grpc_health_v1"
+	healthpb "github.com/thair116/grpc/health/grpc_health_v1"
+	"github.com/thair116/grpc/status"
 )
 
 // Server implements `service Health`.

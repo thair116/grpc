@@ -29,9 +29,9 @@ import (
 
 	v3clusterpb "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
 	v3routepb "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
-	channelzpb "google.golang.org/grpc/channelz/grpc_channelz_v1"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/xds/internal/testutils/e2e"
+	channelzpb "github.com/thair116/grpc/channelz/grpc_channelz_v1"
+	testpb "github.com/thair116/grpc/interop/grpc_testing"
+	"github.com/thair116/grpc/xds/internal/testutils/e2e"
 )
 
 var (

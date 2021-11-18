@@ -28,13 +28,13 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/tls/certprovider/pemfile"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/security/advancedtls"
-	"google.golang.org/grpc/security/advancedtls/testdata"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/credentials/tls/certprovider/pemfile"
+	"github.com/thair116/grpc/keepalive"
+	"github.com/thair116/grpc/security/advancedtls"
+	"github.com/thair116/grpc/security/advancedtls/testdata"
 
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
+	pb "github.com/thair116/grpc/examples/helloworld/helloworld"
 )
 
 var port = ":50051"

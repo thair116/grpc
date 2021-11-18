@@ -28,16 +28,16 @@ import (
 	lrspb "github.com/envoyproxy/go-control-plane/envoy/service/load_stats/v2"
 	durationpb "github.com/golang/protobuf/ptypes/duration"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/xds/internal/testutils/fakeserver"
-	"google.golang.org/grpc/xds/internal/xdsclient/bootstrap"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource/version"
-	"google.golang.org/protobuf/testing/protocmp"
+	"github.com/thair116/grpc"
+	"github.com/thair116/grpc/codes"
+	"github.com/thair116/grpc/credentials/insecure"
+	"github.com/thair116/grpc/status"
+	"github.com/thair116/grpc/xds/internal/testutils/fakeserver"
+	"github.com/thair116/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/thair116/protobuf/testing/protocmp"
 
-	_ "google.golang.org/grpc/xds/internal/xdsclient/controller/version/v2" // Register the v2 xDS API client.
+	_ "github.com/thair116/grpc/xds/internal/xdsclient/controller/version/v2" // Register the v2 xDS API client.
 )
 
 const (
