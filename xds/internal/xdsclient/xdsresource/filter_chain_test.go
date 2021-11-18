@@ -33,9 +33,9 @@ import (
 	v3tlspb "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/thair116/protobuf/testing/protocmp"
-	"github.com/thair116/protobuf/types/known/anypb"
-	"github.com/thair116/protobuf/types/known/wrapperspb"
+	"google.golang.org/protobuf/testing/protocmp"
+	"google.golang.org/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/wrapperspb"
 
 	"github.com/thair116/grpc/internal/envconfig"
 	iresolver "github.com/thair116/grpc/internal/resolver"

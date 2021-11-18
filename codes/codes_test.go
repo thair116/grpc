@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	cpb "github.com/thair116/genproto/googleapis/rpc/code"
 	"github.com/thair116/grpc/internal/grpctest"
+	cpb "google.golang.org/genproto/googleapis/rpc/code"
 )
 
 type s struct {

@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
-	"github.com/thair116/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/anypb"
 )
 
 // UpdateValidatorFunc performs validations on update structs using

@@ -33,7 +33,7 @@ import (
 	"github.com/thair116/grpc/xds/internal/clusterspecifier"
 	"github.com/thair116/grpc/xds/internal/httpfilter"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
-	"github.com/thair116/protobuf/types/known/durationpb"
+	"google.golang.org/protobuf/types/known/durationpb"
 
 	v2xdspb "github.com/envoyproxy/go-control-plane/envoy/api/v2"
 	v2routepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/route"

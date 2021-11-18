@@ -28,11 +28,11 @@ import (
 	"github.com/google/cel-go/common/types/ref"
 	"github.com/google/cel-go/interpreter"
 	"github.com/google/go-cmp/cmp"
-	expr "github.com/thair116/genproto/googleapis/api/expr/v1alpha1"
 	"github.com/thair116/grpc/codes"
 	"github.com/thair116/grpc/internal/grpctest"
 	"github.com/thair116/grpc/peer"
 	"github.com/thair116/grpc/status"
+	expr "google.golang.org/genproto/googleapis/api/expr/v1alpha1"
 )
 
 type s struct {

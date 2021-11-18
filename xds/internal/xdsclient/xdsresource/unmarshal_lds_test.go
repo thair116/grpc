@@ -33,7 +33,7 @@ import (
 	_ "github.com/thair116/grpc/xds/internal/httpfilter/router"
 	"github.com/thair116/grpc/xds/internal/testutils/e2e"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
-	"github.com/thair116/protobuf/types/known/durationpb"
+	"google.golang.org/protobuf/types/known/durationpb"
 
 	v1udpatypepb "github.com/cncf/udpa/go/udpa/type/v1"
 	v3cncftypepb "github.com/cncf/xds/go/xds/type/v3"

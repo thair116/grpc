@@ -32,7 +32,7 @@ import (
 	"github.com/thair116/grpc/internal/pretty"
 	"github.com/thair116/grpc/xds/internal/clusterspecifier"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
-	"github.com/thair116/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/anypb"
 )
 
 // UnmarshalRouteConfig processes resources received in an RDS response,

@@ -33,9 +33,9 @@ import (
 	"github.com/thair116/grpc/xds/internal/xdsclient"
 	"github.com/thair116/grpc/xds/internal/xdsclient/pubsub"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
-	"github.com/thair116/protobuf/testing/protocmp"
-	"github.com/thair116/protobuf/types/known/anypb"
-	"github.com/thair116/protobuf/types/known/durationpb"
+	"google.golang.org/protobuf/testing/protocmp"
+	"google.golang.org/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/durationpb"
 
 	"github.com/thair116/grpc"
 	"github.com/thair116/grpc/credentials/insecure"

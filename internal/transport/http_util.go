@@ -34,12 +34,12 @@ import (
 	"unicode/utf8"
 
 	"github.com/golang/protobuf/proto"
-	"golang.org/x/net/http2"
-	"golang.org/x/net/http2/hpack"
-	spb "github.com/thair116/genproto/googleapis/rpc/status"
 	"github.com/thair116/grpc/codes"
 	"github.com/thair116/grpc/grpclog"
 	"github.com/thair116/grpc/status"
+	"golang.org/x/net/http2"
+	"golang.org/x/net/http2/hpack"
+	spb "google.golang.org/genproto/googleapis/rpc/status"
 )
 
 const (

@@ -29,12 +29,12 @@ import (
 	apb "github.com/golang/protobuf/ptypes/any"
 	dpb "github.com/golang/protobuf/ptypes/duration"
 	"github.com/google/go-cmp/cmp"
-	cpb "github.com/thair116/genproto/googleapis/rpc/code"
-	epb "github.com/thair116/genproto/googleapis/rpc/errdetails"
-	spb "github.com/thair116/genproto/googleapis/rpc/status"
 	"github.com/thair116/grpc/codes"
 	"github.com/thair116/grpc/internal/grpctest"
 	"github.com/thair116/grpc/internal/status"
+	cpb "google.golang.org/genproto/googleapis/rpc/code"
+	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
+	spb "google.golang.org/genproto/googleapis/rpc/status"
 )
 
 type s struct {

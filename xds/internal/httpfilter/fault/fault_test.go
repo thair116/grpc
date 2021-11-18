@@ -43,7 +43,7 @@ import (
 	"github.com/thair116/grpc/metadata"
 	"github.com/thair116/grpc/status"
 	"github.com/thair116/grpc/xds/internal/testutils/e2e"
-	"github.com/thair116/protobuf/types/known/wrapperspb"
+	"google.golang.org/protobuf/types/known/wrapperspb"
 
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 	cpb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/common/fault/v3"

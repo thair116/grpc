@@ -22,10 +22,10 @@ import (
 	"testing"
 
 	anypb "github.com/golang/protobuf/ptypes/any"
-	spb "github.com/thair116/genproto/googleapis/rpc/status"
 	"github.com/thair116/grpc/codes"
 	"github.com/thair116/grpc/internal/grpctest"
 	"github.com/thair116/grpc/status"
+	spb "google.golang.org/genproto/googleapis/rpc/status"
 )
 
 type s struct {

@@ -24,7 +24,6 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	statuspb "github.com/thair116/genproto/googleapis/rpc/status"
 	"github.com/thair116/grpc"
 	"github.com/thair116/grpc/codes"
 	"github.com/thair116/grpc/internal/grpclog"
@@ -32,7 +31,8 @@ import (
 	controllerversion "github.com/thair116/grpc/xds/internal/xdsclient/controller/version"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 	xdsresourceversion "github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
-	"github.com/thair116/protobuf/types/known/anypb"
+	statuspb "google.golang.org/genproto/googleapis/rpc/status"
+	"google.golang.org/protobuf/types/known/anypb"
 
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	v3adsgrpc "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"

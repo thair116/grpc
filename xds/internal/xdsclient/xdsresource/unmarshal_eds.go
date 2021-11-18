@@ -29,7 +29,7 @@ import (
 	"github.com/thair116/grpc/internal/grpclog"
 	"github.com/thair116/grpc/internal/pretty"
 	"github.com/thair116/grpc/xds/internal"
-	"github.com/thair116/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/anypb"
 )
 
 // UnmarshalEndpoints processes resources received in an EDS response,

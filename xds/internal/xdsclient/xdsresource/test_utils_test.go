@@ -24,7 +24,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/thair116/grpc/internal/grpctest"
-	"github.com/thair116/protobuf/testing/protocmp"
+	"google.golang.org/protobuf/testing/protocmp"
 )
 
 type s struct {

@@ -26,10 +26,10 @@ import (
 	"os"
 	"time"
 
-	epb "github.com/thair116/genproto/googleapis/rpc/errdetails"
 	"github.com/thair116/grpc"
 	pb "github.com/thair116/grpc/examples/helloworld/helloworld"
 	"github.com/thair116/grpc/status"
+	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
 )
 
 var addr = flag.String("addr", "localhost:50052", "the address to connect to")

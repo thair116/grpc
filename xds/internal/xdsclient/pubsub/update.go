@@ -20,7 +20,7 @@ package pubsub
 import (
 	"github.com/thair116/grpc/internal/pretty"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
-	"github.com/thair116/protobuf/proto"
+	"google.golang.org/protobuf/proto"
 )
 
 type watcherInfoWithUpdate struct {

@@ -30,7 +30,7 @@ import (
 	"github.com/thair116/grpc/xds/internal/xdsclient/load"
 	"github.com/thair116/grpc/xds/internal/xdsclient/pubsub"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
-	"github.com/thair116/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/anypb"
 
 	"github.com/thair116/grpc"
 	"github.com/thair116/grpc/credentials/insecure"
@@ -39,7 +39,7 @@ import (
 	"github.com/thair116/grpc/internal/testutils"
 	xdstestutils "github.com/thair116/grpc/xds/internal/testutils"
 	"github.com/thair116/grpc/xds/internal/xdsclient/bootstrap"
-	"github.com/thair116/protobuf/testing/protocmp"
+	"google.golang.org/protobuf/testing/protocmp"
 )
 
 type s struct {

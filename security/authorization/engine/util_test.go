@@ -21,7 +21,7 @@ package engine
 import (
 	"testing"
 
-	expr "github.com/thair116/genproto/googleapis/api/expr/v1alpha1"
+	expr "google.golang.org/genproto/googleapis/api/expr/v1alpha1"
 
 	"github.com/google/cel-go/cel"
 	"github.com/google/cel-go/checker/decls"

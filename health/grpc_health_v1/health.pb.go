@@ -25,8 +25,8 @@ package grpc_health_v1
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	protoreflect "github.com/thair116/protobuf/reflect/protoreflect"
-	protoimpl "github.com/thair116/protobuf/runtime/protoimpl"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

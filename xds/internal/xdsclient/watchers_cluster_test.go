@@ -25,7 +25,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
-	"github.com/thair116/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/anypb"
 
 	"github.com/thair116/grpc/internal/testutils"
 )

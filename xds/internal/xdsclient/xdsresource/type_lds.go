@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/thair116/grpc/xds/internal/httpfilter"
-	"github.com/thair116/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/anypb"
 )
 
 // ListenerUpdate contains information received in an LDS response, which is of

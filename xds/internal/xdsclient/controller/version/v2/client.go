@@ -31,12 +31,12 @@ import (
 	controllerversion "github.com/thair116/grpc/xds/internal/xdsclient/controller/version"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 	xdsresourceversion "github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
-	"github.com/thair116/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/anypb"
 
 	v2xdspb "github.com/envoyproxy/go-control-plane/envoy/api/v2"
 	v2corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
 	v2adsgrpc "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v2"
-	statuspb "github.com/thair116/genproto/googleapis/rpc/status"
+	statuspb "google.golang.org/genproto/googleapis/rpc/status"
 )
 
 func init() {

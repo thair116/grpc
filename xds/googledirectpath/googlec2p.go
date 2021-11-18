@@ -41,7 +41,7 @@ import (
 	"github.com/thair116/grpc/xds/internal/xdsclient"
 	"github.com/thair116/grpc/xds/internal/xdsclient/bootstrap"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
-	"github.com/thair116/protobuf/types/known/structpb"
+	"google.golang.org/protobuf/types/known/structpb"
 
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 )

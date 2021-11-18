@@ -36,7 +36,7 @@ import (
 	"github.com/thair116/grpc/xds/internal/xdsclient/pubsub"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
-	"github.com/thair116/protobuf/testing/protocmp"
+	"google.golang.org/protobuf/testing/protocmp"
 
 	xdspb "github.com/envoyproxy/go-control-plane/envoy/api/v2"
 	basepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"

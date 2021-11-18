@@ -43,9 +43,6 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	anypb "github.com/golang/protobuf/ptypes/any"
-	"golang.org/x/net/http2"
-	"golang.org/x/net/http2/hpack"
-	spb "github.com/thair116/genproto/googleapis/rpc/status"
 	"github.com/thair116/grpc"
 	"github.com/thair116/grpc/codes"
 	"github.com/thair116/grpc/connectivity"
@@ -74,6 +71,9 @@ import (
 	"github.com/thair116/grpc/test/bufconn"
 	testpb "github.com/thair116/grpc/test/grpc_testing"
 	"github.com/thair116/grpc/testdata"
+	"golang.org/x/net/http2"
+	"golang.org/x/net/http2/hpack"
+	spb "google.golang.org/genproto/googleapis/rpc/status"
 )
 
 const defaultHealthService = "grpc.health.v1.Health"

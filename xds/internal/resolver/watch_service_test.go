@@ -29,7 +29,7 @@ import (
 	"github.com/thair116/grpc/internal/testutils"
 	"github.com/thair116/grpc/xds/internal/testutils/fakeclient"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
-	"github.com/thair116/protobuf/proto"
+	"google.golang.org/protobuf/proto"
 )
 
 func (s) TestFindBestMatchingVirtualHost(t *testing.T) {

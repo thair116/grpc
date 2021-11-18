@@ -31,8 +31,8 @@ import (
 	"github.com/thair116/grpc/codes"
 	"github.com/thair116/grpc/status"
 
-	epb "github.com/thair116/genproto/googleapis/rpc/errdetails"
 	pb "github.com/thair116/grpc/examples/helloworld/helloworld"
+	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
 )
 
 var port = flag.Int("port", 50052, "port number")

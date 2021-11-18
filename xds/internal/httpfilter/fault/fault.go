@@ -36,7 +36,7 @@ import (
 	"github.com/thair116/grpc/metadata"
 	"github.com/thair116/grpc/status"
 	"github.com/thair116/grpc/xds/internal/httpfilter"
-	"github.com/thair116/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/anypb"
 
 	cpb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/common/fault/v3"
 	fpb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/fault/v3"

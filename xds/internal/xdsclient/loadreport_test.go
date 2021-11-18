@@ -35,7 +35,7 @@ import (
 	"github.com/thair116/grpc/xds/internal/testutils/fakeserver"
 	"github.com/thair116/grpc/xds/internal/xdsclient/bootstrap"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource/version"
-	"github.com/thair116/protobuf/testing/protocmp"
+	"google.golang.org/protobuf/testing/protocmp"
 
 	_ "github.com/thair116/grpc/xds/internal/xdsclient/controller/version/v2" // Register the v2 xDS API client.
 )

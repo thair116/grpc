@@ -38,7 +38,7 @@ import (
 	"github.com/thair116/grpc/status"
 	"github.com/thair116/grpc/xds/internal/xdsclient"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
-	"github.com/thair116/protobuf/types/known/timestamppb"
+	"google.golang.org/protobuf/types/known/timestamppb"
 
 	_ "github.com/thair116/grpc/xds/internal/xdsclient/controller/version/v2" // Register v2 xds_client.
 	_ "github.com/thair116/grpc/xds/internal/xdsclient/controller/version/v3" // Register v3 xds_client.

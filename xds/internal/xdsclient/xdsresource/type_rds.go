@@ -25,7 +25,7 @@ import (
 	"github.com/thair116/grpc/internal/xds/matcher"
 	"github.com/thair116/grpc/xds/internal/clusterspecifier"
 	"github.com/thair116/grpc/xds/internal/httpfilter"
-	"github.com/thair116/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/anypb"
 )
 
 // RouteConfigUpdate contains information received in an RDS response, which is

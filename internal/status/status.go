@@ -33,8 +33,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	spb "github.com/thair116/genproto/googleapis/rpc/status"
 	"github.com/thair116/grpc/codes"
+	spb "google.golang.org/genproto/googleapis/rpc/status"
 )
 
 // Status represents an RPC status code, message, and details.  It is immutable

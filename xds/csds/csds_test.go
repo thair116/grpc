@@ -36,8 +36,8 @@ import (
 	"github.com/thair116/grpc/xds/internal/testutils/e2e"
 	"github.com/thair116/grpc/xds/internal/xdsclient"
 	"github.com/thair116/grpc/xds/internal/xdsclient/xdsresource"
-	"github.com/thair116/protobuf/testing/protocmp"
-	"github.com/thair116/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/testing/protocmp"
+	"google.golang.org/protobuf/types/known/anypb"
 
 	v3adminpb "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 	v2corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
